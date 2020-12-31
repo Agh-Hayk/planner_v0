@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+/*Planer*/
+.main_planer_cont{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./lib/img/planner_images/gason.jpg");
+    width: 1300px;
+    height: 800px;
+    margin: 30px auto;
+    display: flex;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Hegval Condensed Bold,serif;
+    position: relative;
+    justify-content: space-between;
+}
+.main_h2{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+}
+.item_1{
+    width: 1000px;
+    height: 656px;
+    box-sizing: border-box;
+    margin:0 35px;
+    padding: 18px;
+    background-image: url("./lib/img/planner_images/fence (2).png");
+    background-size: 100% 100%;
+}
+.item_one{
+    height: 800px;
+    box-sizing: border-box;
+}
+.item_one h2{
+    text-align: center;
+    font-size: 24px;
+    width: 1000px;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: #ffffff7d; 
+    margin: 30px auto;
+}
+#item_2{
+    box-sizing: border-box;
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 195px;
+    height: 732px;
+    background: #ffffff7d;
+    margin-right: 35px;
+
+}
+#balon{
+    width: 38px;
+    height: 103px;
+}
+.balon_rotate{
+    width: 150px;
+    height: 60px;
+    margin-bottom: -25px;
+    margin-top:490px;
+    margin-right: 15px;
+}
+.balon_rotate_text,.scale_style p{
+    font-weight: bold;
+    font-size: 14px;
+    /*line-height: 35px;*/
+    /*text-transform: uppercase;*/
+    /*color: #1B3461;*/
+    color:black;
+}
+.scale_style p{
+    margin-top: 5px;
+}
+.balon_rotate_text{
+    margin-top: 25px;
+}
+.car{
+    width: 86px;
+    height: 74px;
+    text-align: center;
+    position: absolute;
+}
+.car_drag{
+    width: 96px;
+    height: 84px;
+    position: absolute;
+    top: 110px;
+    right: 90px;
+}
+.new_signature{
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    position: absolute!important;
+    top: 200px;
+}
+.kalod,.kalod_def{
+    width: 92px;
+    height: 92px;
+    text-align: center;
+    position: absolute;
+    top: 265px;
+    right: 96px;
+}
+.el,.el1,.el_def{
+    width: 165px;
+    height: 45px;
+    text-align: center;
+    position: absolute;
+    top: 430px;
+    right: 53px;
+}
+.posr{
+    width: 100%;
+    background: #00000075;
+    height: 800px;
+    position: absolute;
+    display: none;
+    z-index: 99999;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.posa{
+    position: absolute;
+    transform: translate(450px,280px);
+    width: 360px;
+    background: #ffffff7d;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 28px;
+}
+.delete{
+    position: absolute;
+    z-index: 999991;
+    cursor: pointer;
+    font-size: 20px;
+    color:red;
+    transform: translate(841px, 282px);
+    font-weight: bold;
+}
+.border1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 2px solid #1B3461;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+}
+.border2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 2px solid #1B3461;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+}
+.border3{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 2px solid #1B3461;
+    box-sizing: border-box;
+    left: 0;
+    bottom: 0;
+}
+.border4{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 2px solid #1B3461;
+    box-sizing: border-box;
+    right: 0;
+    bottom: 0;
+}
+.car_text, .kalod_text, .el_text{
+    font-weight: bold;
+    font-size: 14px;
+    /*color: #1B3461;*/
+    color:black;
+
+}
+.car_text{
+    margin-top: 122px;
+}
+.kalod_text{
+    margin-top: 95px;
+}
+.el_text{
+    margin-top: 67px;
+    text-align: center;
+}
+.border_img_ok{
+    border-left: 3px solid #05840a;
+    border-right: 3px solid #05840a;
+    border-bottom: 3px solid #05840a;
+    width: 100px;
+    height: 12px;
+}
+.scale_style{
+    text-align: center;
+    margin-top: 15px;
+}
+.planer_bottom_buts{
+    justify-content: space-between;
+}
+.planer_bottom_buts a{
+    padding: 9px 0;
+    width: 150px;
+    color: white;
+    background-color: #18A0FB;
+    font-family: Hegval Condensed Medium, serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.planer_bottom_buts a:first-child{
+    background-color: #1b3461!important;
+    margin-top: 20px;
+}
+.znak_error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: red;
+    color:white;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+.animation_one{
+    animation: color-change-2x 1s linear infinite alternate both;
+}
+.animation_one span{
+    animation: color-change-2x2 1s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+    0% {
+        background: red;
+    }
+    100% {
+        background: white;
+    }
+}
+@keyframes color-change-2x {
+    0% {
+        background: red;
+    }
+    100% {
+        background: white;
+    }
+}
+
+.znak_error span{
+    font-size: 35px;
+    font-family: emoji, serif;
+}
+@-webkit-keyframes color-change-2x2 {
+    0% {
+        color: white;
+    }
+    100% {
+        color: red;
+    }
+}
+@keyframes color-change-2x2 {
+    0% {
+        color: white;
+    }
+    100% {
+        color: red;
+    }
+}
+.planer_top_text{
+    width: 1300px;
+    margin: 0 auto;
+}
+.planer_top_text h2{
+    font-family: Hegval Condensed Medium, serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 133.02%;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #FF0000;
+}
+.planer_top_text p{
+    font-family: Hegval Condensed Light, serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #1B3461;
+}
+#tun{
+    width:304px;
+    height: 314px;
+}
+#car{
+    width: 80px;
+    height: 70px;
+}
+
+#balon{
+    width: 150px;
+    height: 60px;
+}
+.item_2_h4{
+    margin-top: 20px;
+    font-size: 20px;
+}
